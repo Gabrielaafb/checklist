@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: rgb(216, 65, 65);
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
+.eliminar {
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+.eliminar:hover {
+    background-color: #333;
+}
+
+.eliminar:active {
+    background-color: #555;
+}
+.tarea-id {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+}
+.tarea-contenido {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
